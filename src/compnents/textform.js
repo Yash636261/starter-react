@@ -30,7 +30,7 @@ return (
         <textarea className="form-control" value={text} onChange={OnChange} id="mybox" rows="8"></textarea>
       </div>
         <button className="btn btn-primary mx-1" onClick={ToUpperCase}>convert to uppercase</button>
-        <button className="btn btn-primary mx-1" onClick={ToLowerCase}>convert to lowercase</button>
+        <button className="btn btn-primary mx-1" onClick={ToLowerCase}>convert to lower case</button>
         <button className="btn btn-primary mx-1" onClick={ToCopy}>copy text</button>
     </div>
   </div>
